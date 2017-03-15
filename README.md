@@ -1,5 +1,5 @@
-# WebStorm Git Best Practices
-WebStorm is an IDE created by the wonderful folks at JetBrains. The IDE provides great functional tools for web development such as git integration which will be discussed in this article.
+# Ever wanted to use git without the command line?
+This article focuses on WebStorm which is an IDE created by the wonderful folks at JetBrains. The IDE provides great functional tools for web development such as git integration which will be discussed in this article. This article assumes the reader is familiar with git concepts including forking and rebasing. If these terms are unfamiliar try reading [git basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics).
 
 ## Rangle Git Flow
 At Rangle we focus on effective code management throughout a project's development cycle. In order to manage code effectively it is important to follow a few guidelines:
@@ -13,7 +13,7 @@ At Rangle we focus on effective code management throughout a project's developme
 ## Forking a remote repository
 Within Github or Bitbucket find the project you will be working with and create a fork.
 
-## Syncing a fork to a remote repository
+## How to sync a fork to a remote repository
 
 Do the following:
 
@@ -21,6 +21,7 @@ Do the following:
 2. Click the **Add** button ```+``` on the toolbar or press ```⌘N```.
 3. In the dialog that opens, specify the remote name and URL and click ***OK***.
 
+![Webstorm Add Remote](./images/add_remote.png)
 
 ## [How to Rebase within Webstorm](https://www.jetbrains.com/help/webstorm/2016.3/rebasing-branches.html) 
 Git integration with WebStorm supports the Rebase operation and provides an interface that ensures high flexibility in setting the rebase arguments.
