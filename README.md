@@ -89,3 +89,35 @@ Creating [pull requests](https://help.github.com/articles/about-pull-requests/) 
 3. In the **Base Branch** field, specify the branch to apply the changes to. Click **Show Diff** to view the list of commits to be included in the pull request. To view the details of a commit, select it and switch to the **Log** tab which shows a list of files included in the selected commit list. See also [Merging, Deleting, and Comparing Branches](https://www.jetbrains.com/help/webstorm/2016.3/merging-deleting-and-comparing-branches.html).
 4. In the **Title** field, specify the name for your request.
 5. In the **Description** field, optionally provide a brief description of the changes to be applied through the request.
+
+## How to Groom Branches
+
+### To merge a branch
+
+1. Invoke the **Branches** menu as described in [Accessing Git Branches Popup Menu](https://www.jetbrains.com/help/webstorm/2016.3/accessing-git-branches-popup-menu.html).
+2. Select a branch in the pop-up list that shows all available local and remote branches, and choose **Merge** from the submenu. The selected branch will be merged into the branch that is currently [checked out](https://www.jetbrains.com/help/webstorm/2016.3/checking-out-switching-between-branches.html).
+
+If there are merge conflicts, you will be prompted to resolve them.
+
+If your local changes are going to be overwritten by merge, WebStorm suggests to perform **smart merge** (similar to [smart checkout](https://www.jetbrains.com/help/webstorm/2016.3/checking-out-switching-between-branches.html)).
+
+### To delete a branch
+
+1. Invoke the **Branches** menu as described in [Accessing Git Branches Popup Menu](https://www.jetbrains.com/help/webstorm/2016.3/accessing-git-branches-popup-menu.html).
+2. Select a branch in the pop-up list that shows all available local and remote branches, and choose **Delete** from the submenu.
+After you have deleted a branch, a notification will be displayed in the bottom right corner from which you can restore the deleted branch:
+
+![Deleted Branch Notification](./images/deleted_branch_notification.png)
+
+If the deleted branch contained commits that have not yet been merged to its upstream branch or to the current branch, it will still be deleted immediately (equivalent to the ```git branch --D``` or ```git branch --delete --force``` command), but the notification will also contain a link allowing you to view the unmerged commits.
+
+If the deleted branch was tracking a remote branch, you will also be able to remove the remote branch from this notification.
+
+### To compare branches
+
+1. Invoke the **Branches** menu as described in [Accessing Git Branches Popup Menu](https://www.jetbrains.com/help/webstorm/2016.3/accessing-git-branches-popup-menu.html).
+2. Select a branch in the pop-up list that shows all available local and remote branches, and choose **Compare** from the submenu.
+    WebStorm compares the branch that is [currently checked out](https://www.jetbrains.com/help/webstorm/2016.3/checking-out-switching-between-branches.html#current) with the selected branch.
+3. In the dialog that opens, compare the differences in the following two tabs:
+- **Log**: this tab lists the commits that exist in the current branch, and are missing in the selected branch, and vice versa.
+- **Diff**: this tab shows the differences between files existing in both branches. Use the [Show Diff](https://www.jetbrains.com/help/webstorm/2016.3/comparing-files.html) command on the context menu of a file to explore the differences between branches.
