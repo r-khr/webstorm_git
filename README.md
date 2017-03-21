@@ -62,6 +62,8 @@ If rebase was initiated on two or more local repositories, the **Abort Rebasing*
 ## [Creating a new branch](https://www.jetbrains.com/help/webstorm/2016.3/creating-a-new-branch.html)
 Creating new branches is important for keeping a clean development cycle. Without overlapping features it become easy to isolate problems without compromising any other work done.
 
+![Webstorm Create New Branch](./images/newBranch.gif)
+
 ### To create a new Git branch
 1. Invoke the **Branches** menu as described in [Accessing Git Branches Popup Menu](https://www.jetbrains.com/help/webstorm/2016.3/accessing-git-branches-popup-menu.html).
 2. In the pop-up menu, choose New Branch.
@@ -80,7 +82,7 @@ The branch with the specified name will be checked out and put under version con
 
 ## [Creating a Pull Request](https://www.jetbrains.com/help/webstorm/2016.3/creating-a-pull-request.html)
 
-Creating [pull requests](https://help.github.com/articles/about-pull-requests/) is a nice way to share your code with the community and to follow the collaborative development. With it you can tell others about the changes you’ve made and ask for comments, review, or just share the knowledge. With all this going on, a pull request appears in the original repository only after approval. A pull request can be prepared right from WebStorm without switching to the browser.
+Creating [pull requests](https://help.github.com/articles/about-pull-requests/) is a nice way to follow the collaborative development workflow. With it you can tell others about the changes you’ve made and ask for comments, review, or just share the knowledge. With all this going on, a pull request appears in the original repository only after approval. A pull request can be prepared right from WebStorm without switching to the browser.
 
 ### To create a pull request:
 
