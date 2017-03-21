@@ -21,7 +21,7 @@ Do the following:
 2. Click the **Add** button ```+``` on the toolbar or press ```⌘N```.
 3. In the dialog that opens, specify the remote name and URL and click ***OK***.
 
-![Webstorm Add Remote](./images/add_remote.png)
+![Webstorm Add Remote](./images/remote.gif)
 
 ## [How to Rebase within Webstorm](https://www.jetbrains.com/help/webstorm/2016.3/rebasing-branches.html) 
 Git integration with WebStorm supports the Rebase operation and provides an interface that ensures high flexibility in setting the rebase arguments.
