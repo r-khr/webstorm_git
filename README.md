@@ -92,6 +92,8 @@ Creating [pull requests](https://help.github.com/articles/about-pull-requests/) 
 4. In the **Title** field, specify the name for your request.
 5. In the **Description** field, optionally provide a brief description of the changes to be applied through the request.
 
+![Webstorm Create Pull Request](./images/newBranch.gif)
+
 ## How to Groom Branches
 
 ### To merge a branch
