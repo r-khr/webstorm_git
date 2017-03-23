@@ -101,7 +101,7 @@ Creating [pull requests](https://help.github.com/articles/about-pull-requests/) 
 
 If there are merge conflicts, you will be prompted to resolve them.
 
-If your local changes are going to be overwritten by merge, WebStorm suggests to perform **smart merge** (similar to [smart checkout](https://www.jetbrains.com/help/webstorm/2016.3/checking-out-switching-between-branches.html)).
+If your local changes are going to be overwritten by merge, WebStorm suggests to perform **Smart Merge** (similar to [smart checkout](https://www.jetbrains.com/help/webstorm/2016.3/checking-out-switching-between-branches.html)).
 
 ### To delete a branch
 
@@ -123,3 +123,7 @@ If the deleted branch was tracking a remote branch, you will also be able to rem
 3. In the dialog that opens, compare the differences in the following two tabs:
 - **Log**: this tab lists the commits that exist in the current branch, and are missing in the selected branch, and vice versa.
 - **Diff**: this tab shows the differences between files existing in both branches. Use the [Show Diff](https://www.jetbrains.com/help/webstorm/2016.3/comparing-files.html) command on the context menu of a file to explore the differences between branches.
+
+# Conclusion
+
+This article covered the basic git functionality we use at Rangle.io within WebStorm IDE. We looked at how to conduct basic functions such as adding remotes, creating new branches, creating pull requests, rebasing and grooming git. Remember, most of these functionalities can be accessed through the bottom right corner of WebStorm through the [Git Branches Popup Menu](https://www.jetbrains.com/help/webstorm/2016.3/accessing-git-branches-popup-menu.html). To get familiar with the follow it is important follow to practice the process. Good luck!
